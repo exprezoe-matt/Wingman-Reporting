@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wingman.Web.Reporting", "Wingman.Web.Reporting\Wingman.Web.Reporting.csproj", "{D5CB232B-9EB4-4947-96E6-A3B9CC25F30F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ForReference_ToBeRemoved", "ForReference_ToBeRemoved", "{476B6F43-EED7-4113-8EEB-9134949817F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportGenerator", "ReportGenerator\ReportGenerator.csproj", "{DC067995-1BB4-4BED-B8EA-08CF72707D46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{D5CB232B-9EB4-4947-96E6-A3B9CC25F30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5CB232B-9EB4-4947-96E6-A3B9CC25F30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5CB232B-9EB4-4947-96E6-A3B9CC25F30F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC067995-1BB4-4BED-B8EA-08CF72707D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC067995-1BB4-4BED-B8EA-08CF72707D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC067995-1BB4-4BED-B8EA-08CF72707D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC067995-1BB4-4BED-B8EA-08CF72707D46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC067995-1BB4-4BED-B8EA-08CF72707D46} = {476B6F43-EED7-4113-8EEB-9134949817F9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D186E161-A464-4EC0-B8FF-9CF0BFD49642}
